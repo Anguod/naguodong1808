@@ -1,0 +1,211 @@
+
+.shop{
+    width: 1120px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.shop ul:first-child {
+    float: left;
+    width: 477px;
+    height: 477px;
+    border:1px solid #eaeaea;
+    }
+img{
+display:block;
+border:none;
+}
+.shop ul:first-child li:first-child{
+width: 477px;
+height: 477px;
+}
+#bigBox{
+position:absolute;
+top:181px;
+left:73px;
+width: 477px;
+height: 477px;
+border:1px solid #eaeaea;
+}
+#bigBox img{
+width:477px;
+height:477px;
+
+}
+#bigBox:hover .mirrorBox1{
+    opacity: 1;
+}
+.mirrorBox1{
+position:absolute;
+top:0;
+left:0;
+width: 286px;
+height: 286px;
+opacity: 0;
+cursor:move;
+transition:opacity 0.5s;
+border:3px solid #888888;
+}
+
+
+.showBox1{
+opacity: 1;
+position:absolute;
+top:244px;
+left:244px;
+width:0px;
+height:0px;
+transition:all .5s;
+background-size:200% 200%;
+}
+#bigBox:hover .showBox1{
+    opacity: 1;
+    top:0px;
+    left:491px;
+    width:477px;
+    height:477px;
+    overflow:hidden;
+}
+
+#showBox img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:200%;
+    height:200%;
+}
+
+.shop ul:first-child li:nth-child(2){
+    position: relative;
+}
+.shop ul:first-child li:nth-child(2) span{
+    float: left;
+    width: 15px;
+    height: 87px;
+    background: #f2f2f2;
+    line-height: 87px;
+    font-size: 14px;
+    color:#838383;
+}
+.shop ul:first-child li:nth-child(2) img{
+    position: absolute;
+    top:0;
+    left: 16px;
+    width: 83px;
+    height: 85px;
+    border:1px solid #cccccc;
+}
+.shop ul:first-child li:nth-child(2) span:nth-child(3){
+    margin-left: 449px;
+}
+.shop ul:nth-child(2){
+    float: right;
+    width: 556px;
+}
+.shop ul:nth-child(2) li:first-child{
+    font-size: 18px;
+    color:#999999;
+    margin-bottom: 14px;
+    margin-top: 24px;
+}
+.shop ul:nth-child(2) li:nth-child(2){
+     font-size: 18px;
+     color:#000000;
+}
+.shop ul:nth-child(2) li:nth-child(3){
+    font-size: 12px;
+     color:#999999;
+     margin-top: 18px;
+     border-bottom: 1px dashed #bfbfbf;
+     padding-bottom: 7px;
+     margin-bottom: 14px;
+}
+.shop ul:nth-child(2) li:nth-child(4){
+    font-size: 22px;
+    color:#c8a985;
+}
+.shop ul:nth-child(2) li:nth-child(4) span:nth-child(2){
+    color:#999999;
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left:10px;
+
+}
+.shop ul:nth-child(2) li:nth-child(5){
+    font-size: 12px;
+    color:#000000;
+    margin-bottom: 14px;
+}
+.shop ul:nth-child(2) li:nth-child(5) span{
+    font-size: 16px;
+    color:#c8a985;
+    font-weight: 900;
+    margin-left: 60px;
+}
+.shop ul:nth-child(2) li:nth-child(7){
+    font-size: 12px;
+    color:#000000;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px dashed #bfbfbf;
+    border-top:1px dashed #bfbfbf;
+}
+.shop ul:nth-child(2) li:nth-child(7) a{
+    font-size: 12px;
+    color:#c8a985;
+    margin-left: 56px;
+}
+.shop ul:nth-child(2) li:nth-child(9){
+    font-size: 14px;
+    margin-top: 24px;
+}
+.shop ul:nth-child(2) li:nth-child(9) span:first-child{
+    margin-left: 4px;
+    margin-right: 365px;
+}
+.shop ul:nth-child(2) li:nth-child(9) span{
+    float: right;
+    text-align: center;
+    line-height: 22px;
+    width: 22px;
+    height: 22px;
+    background: #c8a985;
+    cursor: pointer;
+}
+.shop ul:nth-child(2) li:nth-child(9) input{
+    vertical-align: middle;
+    width: 44px;
+    height: 20px;
+    border:1px solid #a9a9a9;
+    float: right;
+    margin-left: 4px;
+}
+.shop ul:nth-child(2) li:nth-child(10){
+    font-size: 12px;
+    color:#999999;
+    line-height: 24px;
+    margin-top: 10px;
+
+}
+.shop ul:nth-child(2) li:nth-child(11){
+    overflow: hidden;
+}
+.shop ul:nth-child(2) li:nth-child(11) input{
+    float: left;
+    width: 118px;
+    height: 33px;
+    border:1px solid #c8a985;
+    background: white;
+    color: #c8a985;
+    cursor: pointer;
+    margin:20px 0 20px 0;
+}
+.shop ul:nth-child(2) li:nth-child(11) input:nth-child(2){
+    margin-left: 20px;
+    background: #c8a985;
+    color:white;
+}
+.shop ul:nth-child(2) li:nth-child(12) a{
+    color:#999999;
+    font-size: 12px;
+}

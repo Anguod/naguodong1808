@@ -1,0 +1,197 @@
+/* CSS Document */
+* { padding:0; margin:0;}
+
+body { font-size:12px; font-family:"宋体";}
+
+ul { list-style-type:none;}
+
+a { color:#666; text-decoration:none;}
+
+
+img { border:none;}
+
+h1 { font-size:12px;}
+.host{
+    padding-top:20px;
+}
+.host li{
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 165px;
+    height: 83px;
+    margin-left: 6px;
+    background: url(../images/host.jpg);
+    border:1px solid #dfdfdf;
+    margin-bottom: 7px;
+}
+.host li a{
+    font-size: 18px;
+    color:#000000;
+    line-height: 83px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.host li a:hover{
+    color:#b28247;
+}
+.host li:nth-child(1){
+    background-position: -1px -1px;
+    margin-left: 0;
+}
+.host li:nth-child(2){
+    background-position: -174px -1px;
+}
+.host li:nth-child(3){
+    background-position: -347px -1px;
+}
+.host li:nth-child(4){
+    background-position: -520px -1px;
+}
+.host li:nth-child(5){
+    background-position: -693px -1px;
+}
+.host li:nth-child(6){
+    background-position: -866px -1px;
+}
+.host li:nth-child(7){
+    background-position: -1039px -1px;
+}
+.host li:nth-child(8){
+    background-position: -1px -93px;
+    margin-left: 0;
+}
+.host li:nth-child(9){
+    background-position: -174px -93px;
+}
+.host li:nth-child(10){
+    background-position: -347px -93px;
+}
+.host li:nth-child(11){
+    background-position: -520px -93px;
+}
+.host li:nth-child(12){
+    background-position: -693px -93px;
+}
+.host li:nth-child(13){
+    background-position: -866px -93px;
+}
+.host li:nth-child(14){
+    background-position: -1039px -93px;
+}
+.host li:hover{
+    background: url(../images/hover.jpg);
+    background-position:0;
+}
+.host li:hover a{
+    opacity: 1;
+}
+.host li div:nth-child(2){
+    width: 0;
+    height: 1px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background: #000;
+}
+.host li div:nth-child(3){
+    width: 1px;
+    height: 0;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    background: #000;
+}
+.host li div:nth-child(4){
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    background: #000;
+}
+.host li div:nth-child(5){
+    width: 1px;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: #000;
+}
+.host li:hover div:nth-child(2){
+    width: 166px;
+    transition: all 0.3s;
+}
+.host li:hover div:nth-child(3){
+    height: 84px;
+     transition: all 0.3s;
+}
+.host li:hover div:nth-child(4){
+    width: 166px;
+     transition: all 0.3s;
+}
+.host li:hover div:nth-child(5){
+        height: 84px;
+     transition: all 0.3s;
+}
+/* show */
+#show li{
+    position: relative;
+    float: left;
+    margin-left:10px;
+    overflow: hidden;
+}
+#show li:first-child{
+    margin-left: 0;
+}
+#show li a{
+    display:block;
+    width: 295px;
+    height: 394px;
+    background:url(../images/back.jpg) no-repeat;
+    background-position: 0 0;
+}
+#show li:nth-child(2) a{
+    background-position: -305px 0px;
+}
+#show li:nth-child(3) a{
+    background-position: -610px 0px;
+}
+#show li:nth-child(4) a{
+    background-position: -915px 0px;
+}
+#show li a i{
+   position: absolute;
+    left: -412px;
+    top: 0;
+    width: 313px;
+    height: 393px;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.7), rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.7), rgba(255,255,255,0));
+    background-image: -webkit-linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.7), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.7), rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.7), rgba(255,255,255,0));
+    transform: skewx(-25deg);
+    -o-transform: skewx(-25deg);
+    -moz-transform: skewx(-25deg);
+    -webkit-transform: skewx(-25deg);
+    -moz-transition: 0s;
+    -o-transition: 0s;
+    -webkit-transition: 0s;
+    transition: 0s;
+    cursor: pointer;
+}
+
+#show li:hover a i{  
+    left:413px;  
+    -moz-transition:0.5s;  
+    -o-transition:0.5s;  
+    -webkit-transition:0.5s;  
+    transition:0.5s;  
+} 
+
+
+
+
+
+
